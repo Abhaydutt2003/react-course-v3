@@ -725,7 +725,7 @@ Vanilla JS
 ```js
 const sayHello = (name) => {
   if (name) {
-    return `Hello, ${name}`;
+    return `Hello, ${name}`; 
     // exit the function, skip rest of the code
   }
   // so if name provided, won't get to this line
